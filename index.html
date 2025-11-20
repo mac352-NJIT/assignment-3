@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment 3</title>
 </head>
 <body>
  
@@ -12,8 +12,25 @@
     <h3>Upload Text File</h3>
     <input type="file" id="textFileInput" accept=".txt">
     <button onclick="countTotalVowelsAndConsonants()">Count Vowels and Consonants</button>
-    <p >Vowels: </p><span id="totalVowels"> </span>
-    <p>Consonants: </p><span id="totalConsonants"> </span>
+    <p >Vowels: <span id="totalVowels">0</span></p>
+    <p>Consonants: <span id="totalConsonants">0</span></p>
+    <p></p>
+    <h2>BMI Calculator</h2>
+    <h3>Enter Weight and Height</h3>
+    <p>Weight:  
+        <span><input type="number" id="inputWeight" placeholder="Weight (Pounds)"></span>
+    </p>
+    <p> Height (Feet): 
+        <span><input type="number" id="inputHeightFeet" placeholder="Height (Feet)"></span>
+    </p>
+    <p> Height (Inches): 
+        <span><input type="number" id="inputHeightInches" placeholder="Height (Inches)"></span>
+    </p>
+    <button onclick="calculateBMI()">Calculate BMI</button>
+    <p></p>
+    <p>Your BMI is: <span id="bmiResult">0</span></p>
 
+
+    <script src="index.js"></script>
 </body>
 </html>
